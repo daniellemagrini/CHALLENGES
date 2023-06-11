@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="desktop">
+    <div class="container">
+      <section class="resultado">
+        <div class="resultado__result">
+          <h3>Your Result</h3>
+        </div>
+        <div class="resultado__notatotal">
+            <h3>76</h3>
+            <p>of 100</p>
+        </div>
+        <div class="resultado__status">
+          <div class="resultado__status__status">
+            <h2>Great</h2>
+          </div>
+          <div class="resultado__status__estatistica">
+            <p>You scored higher than 65% of the people who have taken these tests.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="summary">
+        <div class="summary__container">
+          Summary
+        </div>
+        <div class="summary__geral"></div>
+          <div class="summary__geral__reaction__total">
+            <div class="summary__geral__reaction__total__reaction">  
+              <p class="reaction"><img src="./assets/images/icon-reaction.svg" alt="icone de raio realacionado ao título Reaction" class="icon-reaction"></img>Reaction</p>
+            </div>
+            <div class="summary__geral__reaction__total__nota">
+              <p><b>80</b><span class="summary__geral__notbold"> / 100</span></p>
+            </div>       
+          </div>
+          <div class="summary__geral__memory__total">
+            <div class="summary__geral__memory__total__memory">
+              <p class="memory"><img src="./assets/images/icon-memory.svg" alt="icone de cérebro realacionado ao título Memory" class="icon-memory"></img>Memory</p>
+            </div>
+            <div class="summary__geral__memory__total__nota">
+              <p><b>92</b><span class="summary__geral__notbold"> / 100</span></p>
+            </div>
+          </div>
+          <div class="summary__geral__verbal__total">
+            <div class="summary__geral__verbal__total__verbal">
+              <p class="verbal"><img src="./assets/images/icon-verbal.svg" alt="icone de balão de conversa realacionado ao título Verbal" class="icon-verbal"></img>Verbal</p>
+            </div>
+            <div class="summary__geral__verbal__total__nota">
+              <p><b>61</b><span class="summary__geral__notbold"> / 100</span></p>
+            </div>
+          </div>
+          <div class="summary__geral__visual__total">
+            <div class="summary__geral__visual__total__visual">
+              <p class="visual"><img src="./assets/images/icon-visual.svg" alt="icone de olho realacionado ao título Visual" class="icon-visual"></img>Visual</p>
+            </div>
+            <div class="summary__geral__visual__total__nota">
+              <p><b>72</b><span class="summary__geral__notbold"> / 100</span></p>
+            </div>
+          </div>
+          <div class="continue">
+            <div class="continue__botao">
+              <a>Continue</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <footer class="attribution">
+    Challenge by <a  class="attribution__frontendmentor" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="attribution__linkedin" href="https://www.linkedin.com/in/danielle-magrini-b205aa167/">Danielle Magrini</a>.
+  </footer>
+</body>
+</html>
